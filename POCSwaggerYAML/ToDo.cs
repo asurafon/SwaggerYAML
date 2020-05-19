@@ -15,7 +15,9 @@ namespace POCSwaggerYAML
         [DefaultValue("")]
         public string task { get; set; }
 
+        #nullable enable
         public string? date { get; set; }
+        #nullable restore
 
         public string? time { get; set; }
     }

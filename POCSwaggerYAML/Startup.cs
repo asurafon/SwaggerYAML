@@ -43,7 +43,7 @@ namespace POCSwaggerYAML
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "ToDo API");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
 
             if (env.IsDevelopment())
